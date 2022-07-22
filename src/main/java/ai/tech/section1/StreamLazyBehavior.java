@@ -4,7 +4,7 @@ import java.util.stream.Stream;
 
 public class StreamLazyBehavior {
   public static void main(String[] args) {
-    Stream<Integer> integerStream = Stream.of(1).map(integer -> {
+    Stream<Integer> integerStream = Stream.of(5).map(integer -> {
                                                         try {
                                                           Thread.sleep(1000);
                                                         } catch (InterruptedException e) {
